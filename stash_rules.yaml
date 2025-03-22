@@ -1,0 +1,12 @@
+name: my custom rules from github
+ 
+rules:
+  - 'DOMAIN-KEYWORD,v2ex,节点选择'
+  - 'DOMAIN,hub.docker.com,节点选择'
+  - 'DOMAIN-SUFFIX,cloudfront.net,TikTok'
+  - 'DOMAIN,cdn.cookielaw.org,TikTok'
+  - 'DOMAIN-KEYWORD,github,节点选择'
+  - 'DOMAIN-SUFFIX,githubusercontent.com,节点选择'
+  - 'DOMAIN,dl.google.com,DIRECT'
+  - 'DOMAIN-SUFFIX,termius.com,DIRECT'
+  - 'DOMAIN-SUFFIX,icloud.com,苹果服务'
