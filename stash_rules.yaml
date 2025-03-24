@@ -11,7 +11,7 @@ rules:
   - 'DOMAIN-SUFFIX,termius.com,DIRECT'
   - 'DOMAIN-SUFFIX,icloud.com,苹果服务'
   # ai.google.dev
-  - 'DOMAIN-SUFFIX,http://clients6.google.com,ChatGPT'
+  - 'DOMAIN,ai.google.dev,ChatGPT'
   - 'DOMAIN-SUFFIX,aistudio.google.com,ChatGPT'
   - 'DOMAIN-SUFFIX,makersuite.google.com,ChatGPT'
   - 'DOMAIN,alkalicore-pa.clients6.google.com,ChatGPT'
