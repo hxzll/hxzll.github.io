@@ -10,7 +10,14 @@ rules:
   - 'DOMAIN,dl.google.com,DIRECT'
   - 'DOMAIN-SUFFIX,termius.com,DIRECT'
   - 'DOMAIN-SUFFIX,icloud.com,苹果服务'
-  # ai.google.dev
+  # Google Gemini
+  - 'DOMAIN-SUFFIX,bard.google.com,ChatGPT'
+  - 'DOMAIN-SUFFIX,gemini.google.com,ChatGPT'
+  # Google Generative Language API
+  - 'DOMAIN-SUFFIX,generativelanguage.googleapis.com,ChatGPT'
+  - 'DOMAIN-SUFFIX,geller-pa.googleapis.com,ChatGPT'
+  - 'DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,ChatGPT'
+  # Google AI Studio
   - 'DOMAIN,ai.google.dev,ChatGPT'
   - 'DOMAIN-SUFFIX,aistudio.google.com,ChatGPT'
   - 'DOMAIN-SUFFIX,makersuite.google.com,ChatGPT'
