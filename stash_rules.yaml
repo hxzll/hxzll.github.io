@@ -21,6 +21,5 @@ rules:
   - 'DOMAIN,ai.google.dev,ChatGPT'
   - 'DOMAIN-SUFFIX,aistudio.google.com,ChatGPT'
   - 'DOMAIN-SUFFIX,makersuite.google.com,ChatGPT'
-  - 'DOMAIN,alkalicore-pa.clients6.google.com,ChatGPT'
-  - 'DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com,ChatGPT'
+  - 'DOMAIN-SUFFIX,clients6.google.com,ChatGPT'
   - 'DOMAIN-SUFFIX,generativeai.google,ChatGPT'
