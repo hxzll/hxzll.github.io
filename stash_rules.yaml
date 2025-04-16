@@ -1,4 +1,9 @@
 name: my custom rules from github
+
+dns:
+    ipv6: false
+    default-nameserver: [ 223.5.5.5, 119.29.29.29] #!replace
+    nameserver: ['tls://223.5.5.5:853', 'tls://223.6.6.6:853', 'https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query'] #!replace
  
 rules:
   - 'DOMAIN-KEYWORD,v2ex,节点选择'
